@@ -1,0 +1,52 @@
+body{text-align:center;
+padding-top: 800px;}
+#welcome{
+    position: absolute;
+    top:0;bottom:0;left:0;right:0;
+    height:800px;width:100%;
+    background:linear-gradient(#eb3734 0%,#346beb 50%,#7434eb 100%);
+    display:table;
+    z-index: 9;
+}
+.welcome-inner
+{display:table-cell;
+vertical-align: middle;}
+.Tim
+{border-radius:100%;padding-top:20px;margin-bottom:50px;}
+#bio{
+    font-family: cursive;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.menu {
+    text-align: center;
+    list-style: none;
+    font-family: 'Pacifico', cursive;
+    position:fixed;
+    top:0px;
+    margin-top:0px;
+    background-color:cyan;
+    width:100%;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+p{
+font-family: 'Pacifico', cursive;
+}
+h1{font-family: 'Pacifico', cursive;}
+.links {display: inline;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+padding-top: 5px;
+padding-left: 9px;
+padding-right: 9px;
+padding-bottom: 5px;}
+.links:hover {background-color:dodgerblue;
+font-size: 25px;;}
+.line{ width:100px; height:6px; background-color: blue; margin:8px auto; display:inline;}
+.article:hover{color:aqua;}
+html{scroll-behavior: smooth;}
+a {text-shadow:2px 2px red;}
